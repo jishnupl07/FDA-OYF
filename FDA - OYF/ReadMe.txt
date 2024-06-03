@@ -2,10 +2,10 @@
 
 Jishnu's Food Delivery Application - oyFood 
 
+oyFood provides a comprehensive solution for managing food orders, from user authentication and restaurant browsing to detailed billing and order summaries. Its intuitive interface and robust backend integration make it a valuable tool for both customers and administrators in the food delivery ecosystem
+
 A Tkinter - MySql Interactive Program. 
 This application is a Python-based desktop software designed to facilitate food ordering. It leverages the Tkinter library for the graphical user interface (GUI) and connects to a MySQL database to manage data related to users, restaurants, menu items, and orders. 
-
-oyFood provides a comprehensive solution for managing food orders, from user authentication and restaurant browsing to detailed billing and order summaries. Its intuitive interface and robust backend integration make it a valuable tool for both customers and administrators in the food delivery ecosystem
 
 Features
 
@@ -27,28 +27,37 @@ Order Management:
 
 Order Summary and Billing:
 	Displays a summary of the user's order.
-	Shows detailed billing information, including itemized costs, taxes, platform fee, and the grand total.
+	Shows detailed billing information, including itemized costs, taxes, platform fee and the grand total.
 
 User Options :
 	Users can edit their profile, repeat their orders with a click of a button, Logout.
 
 Admin Functions:
 	Admin users have access to additional functionalities for managing users, restaurants and menu items.
-	Admin-specific features include adding new restaurants, updating existing ones, and deleting entries.
+	Admin-specific features include adding new restaurants, updating existing ones and deleting entries.
 
 Graphical User Interface:
-	oyFood Uses Tkinter for creating a responsive and user-friendly interface.
-	Custom Buttons, Labels, Checkboxes, Spinboxes , Comboboxes and Canvases enhance the visual appeal and usability.
-	Separate frames and canvases are used for different pages, such as login, restaurant listing, menu display, and order summary.
+	oyFood uses Tkinter for creating a responsive and user-friendly interface.
+	Custom Buttons, Labels, Checkboxes, Spinboxes, Comboboxes and Canvases enhance the visual appeal and usability.
+	Separate frames and canvases are used for different pages, such as login, restaurant listing, menu display and order summary.
 
 Database Integration:
-	Connects to a MySQL database to store and retrieve data.
-	Ensures data persistence for user accounts, restaurant details, menu items, and orders.
+	oyFood connects to a MySQL database to store and retrieve data.
+	Ensures data persistence for user accounts, restaurant details, menu items and orders.
 
 User Interface Components:
 	Buttons: Custom-styled for better user interaction.
 	Labels and Spinboxes: Used for displaying information and allowing quantity selection for items.
 	Canvases and Frames: Manage layout and organization of different sections within the application window.
+___________________________________________________________________________________________
+
+Installation Guide :
+	open cmd/termial
+	change directory to application folder		- cd <path>
+	install required modules :			- pip intsall -r requirements.txt
+	open main.pyw					- python main.pyw 
+
+___________________________________________________________________________________________
 
 Lines of Code - 7410 (Seven Thousand Four Hundred Ten Lines)
 oyF - LogoFont - Bauhaus 93
@@ -60,7 +69,7 @@ Modules Used :
 	pathlib			# Path
 	datetime		# DateTime
 	tkinter.tix		# ToopTip (Balloon)
-	tkcalendar		# Calender
+	tkcalendar		# Calendersss
 	re			# Regular Expressions
 	math			# Math - Ceil 
 	

@@ -1,4 +1,4 @@
-
+drop database if exists food_delivery_application; 
 create database food_delivery_application ;
 use food_delivery_application ;
 

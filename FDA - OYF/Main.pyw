@@ -681,7 +681,7 @@ def display_report_4(report_4):
             cust_name_label = Label(frame13,bg ='#FFFFFF',font = ('Inika',18,'bold'),foreground= Foreground, text ='Customer Name',anchor=CENTER)
             cust_name_label.place(x = 10,y = Ycoor)
         
-            email_address_label = Label(frame13,bg ='#FFFFFF',font = ('Inika',18,'bold'),foreground= Foreground, text ='Emai address')
+            email_address_label = Label(frame13,bg ='#FFFFFF',font = ('Inika',18,'bold'),foreground= Foreground, text ='Email address')
             email_address_label.place(x = 300,y = Ycoor)
         
             Order_count_label = Label(frame13,bg ='#FFFFFF',font = ('Inika',18,'bold'),foreground= Foreground, text ='Order Count')
